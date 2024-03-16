@@ -32,10 +32,12 @@
       font-size: 2rem;
     }
   }
-  #contact {
+  #portfolio,#about,#contact {
     h2 {
       font-size: 2rem !important;
     }
+  }
+  #contact {
     form {
       width: 100% !important;
     }

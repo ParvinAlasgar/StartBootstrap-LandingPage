@@ -94,7 +94,7 @@ footer {
   #header h1 {
     font-size: 2rem;
   }
-  #contact h2 {
+  #portfolio h2, #about h2, #contact h2 {
     font-size: 2rem !important;
   }
   #contact form {

@@ -22,6 +22,37 @@ html {
   height: 0.2rem;
 }
 
+main #portfolio h2 {
+  color: #2c3e50;
+  font-size: 3rem;
+}
+main #portfolio i {
+  color: #2c3e50;
+}
+main #portfolio .wrapper {
+  position: relative;
+  cursor: pointer;
+}
+main #portfolio .wrapper::after {
+  content: "+";
+  display: block;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 6rem;
+  background-color: #1abc9c;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  color: #fff;
+  transition: opacity 0.3s;
+}
+main #portfolio .wrapper:hover::after {
+  opacity: 0.8;
+}
+
 @media only screen and (max-width: 576px) {
   #nav ul {
     justify-content: center !important;

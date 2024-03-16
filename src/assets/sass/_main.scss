@@ -57,4 +57,17 @@ main {
       }
     }
   }
+  #about {
+    background-color: $colorMain2;
+    h2 {
+      font-size: 3rem;
+    }
+    a {
+      transition: background-color 0.7s;
+      &:hover {
+        background-color: #fff;
+        color: #000 !important;
+      }
+    }
+  }
 }

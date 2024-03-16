@@ -52,6 +52,19 @@ main #portfolio .wrapper::after {
 main #portfolio .wrapper:hover::after {
   opacity: 0.8;
 }
+main #about {
+  background-color: #1abc9c;
+}
+main #about h2 {
+  font-size: 3rem;
+}
+main #about a {
+  transition: background-color 0.7s;
+}
+main #about a:hover {
+  background-color: #fff;
+  color: #000 !important;
+}
 
 @media only screen and (max-width: 576px) {
   #nav ul {

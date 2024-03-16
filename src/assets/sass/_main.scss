@@ -70,4 +70,15 @@ main {
       }
     }
   }
+  #contact {
+    h2 {
+      font-size: 3rem;
+    }
+    i {
+      color: $colorMain;
+    }
+    .btn {
+      background-color: $colorMain2;
+    }
+  }
 }

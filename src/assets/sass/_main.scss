@@ -1,0 +1,24 @@
+html {
+  font-size: 1rem;
+}
+
+// Nav
+#nav {
+  background-color: $colorMain;
+  li {
+    transition: background-color 0.7s;
+    &:hover {
+      background-color: $colorMain2;
+    }
+  }
+}
+// Header
+#header {
+  background-color: $colorMain2;
+  h1 {
+    font-size: 4rem;
+  }
+  .line {
+    height: 0.2rem;
+  }
+}
